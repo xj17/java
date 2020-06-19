@@ -1,0 +1,6 @@
+//private
+//default 缺省 （默认）  //对类的修饰（public，default） 内部类除外
+protected
+public
+
+类内部-同一个包-子类-任何地方

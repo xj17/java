@@ -1,0 +1,32 @@
+单例（Singleton）模式
+/*实现单例模式
+//私有化构造方法 使得该类无法在外部通过new 进行实例化
+//饿汉式
+	private Singleton(){
+	}
+//private static Singleton s;
+    //对外提供一个公开的获得 Singleton对象的方法
+	 public static Singleton getInstance(){
+	if(s==null){
+	s=new Singleton();
+}
+	return s;
+}
+*/
+
+/* 懒汉式
+	public class Customer{
+	private static Customer s=new Customer();
+	private Customer{
+	}	
+	public static Customer getInstance(){
+	return s;
+	}
+
+	}
+*/
+
+1.构造方法私有化
+2.对外提供一个公开的静态的获取当前类型对象的方法
+3.提供一个当前类型的静态变量
+缺点：单例模式的类型没有子类型，无法被继承
