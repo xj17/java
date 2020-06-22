@@ -1,1 +1,7 @@
 
+1.StringBuffer，StringBulider 是一个字符缓冲区
+2.预先在内存中申请一块空间，以容纳字符序列，预留空间不够会进行自动扩容。
+3.StringBuffer底层是一个char数组，该char数组是可变的
+4.默认初始化容量是16
+5.优化 在创建StringBuffer之前，预测StringBuffer的存储字符数量，在创建StringBuffer的时候采用指定初始化容量的方式创建StringBuffer，为了减少底层数组的拷贝，提高效率。
+6.StringBuffer是线程安全的（可以在多线程的环境下使用不会出现问题）
