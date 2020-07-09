@@ -4,3 +4,5 @@
 4.字节流都以Stream结尾，所有的字符流都含有Reader和Writer。
 
 //temp.txt文件中的内容是abcdef
+
+ 例子的阅读顺序 FileInputStream--FileOutputStream --FileReader --FileWriter --BufferedReader --BufferedWriter 
