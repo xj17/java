@@ -5,4 +5,4 @@
 
 //temp.txt文件中的内容是abcdef
 
- 例子的阅读顺序 FileInputStream--FileOutputStream --FileReader --FileWriter --BufferedReader --BufferedWriter 
+ 例子的阅读顺序 FileInputStream--FileOutputStream --FileReader --FileWriter --BufferedReader --BufferedWriter --Decorator装饰者模式 --DataInputStream和DataOutputStream --PrintSteam和PrintWriter  --ObjectOutputStream(对象的序列化)和ObjectInputSteam（对象的反序列化）
